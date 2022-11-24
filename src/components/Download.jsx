@@ -8,10 +8,11 @@ const Download = () => {
     <div className={`${styles.section} ${styles.bgWhite}`}>
       <div className={`${styles.subSection} flex-col text-center`}>
         <div>
-          <h1 className={`${styles.h1Text} ${styles.blackText}`}>Download the Source Code</h1>
-          <p className={`${styles.pText} ${styles.blackText}`}>Get the full source code on GitHub</p>
+          <h1 className={`${styles.h1Text} ${styles.blackText}`}>Download the App from know</h1>
+          <p className={`${styles.pText} ${styles.blackText}`}>Get started with and create the voting sytem of your community</p>
         </div>
-        <button className={styles.btnPrimary}>Source Code</button>
+        <button className={styles.btnPrimary}>Apple store</button>
+        <button className={styles.btnPrimary}>Google play</button>
         <div className={styles.flexCenter}>
           <img 
             src={assets.scene}
